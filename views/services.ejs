@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <%- include('partials/header') %>
+
+  <main>
+    <h1>Our Services</h1>
+    <p>We offer a wide range of services to meet your needs. Explore them below:</p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Web Development</h3>
+        <p>Custom websites tailored to your business needs.</p>
+      </div>
+      <div class="service-card">
+        <h3>SEO Optimization</h3>
+        <p>Boost your search engine rankings with our expertise.</p>
+      </div>
+      <div class="service-card">
+        <h3>Digital Marketing</h3>
+        <p>Reach your target audience effectively with our strategies.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <%- include('partials/footer') %>
+</body>
+</html>
